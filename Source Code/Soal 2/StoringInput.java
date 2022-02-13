@@ -34,7 +34,7 @@ public class StoringInput {
             System.out.println("*long");
         }
         }catch(Exception e){
-            System.out.println(number[i]+ "can't be fitted anywhere");
+            System.out.println(number[i] + " can't be fitted anywhere");
         }
         }
         }

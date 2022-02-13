@@ -25,7 +25,7 @@ public class AddNum {
  * @return int This returns sum of numA and numB.
  */
    public int addNum (int numA, int numB){
-       return numA +numB;
+      return numA +numB;
    }
   /**
  * This is the main method which makes use of addNum method.
@@ -33,6 +33,7 @@ public class AddNum {
  * @exception IOException On input error.
  * @see IOException
  */
+ 
   public static void main (String args[]) throws IOException {
     AddNum obj = new AddNum();
     int sum = obj.addNum(10, 20);
